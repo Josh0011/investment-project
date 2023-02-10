@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>investment-project</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav class="web--nav sticky">
+
+    <div class="nav--container">
+
+        <div class="navigation--web--left">
+            <div class="nav--icon">
+                <svg width="74" height="33" viewBox="0 0 74 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M39.152 31.296C39.568 31.296 39.888 31.488 40.112 31.872C40.368 32.256 40.496 32.784 40.496 33.456C40.496 34.704 40.192 35.696 39.584 36.432C37.792 38.576 36.048 40.08 34.352 40.944C32.688 41.808 30.672 42.24 28.304 42.24C26.64 42.24 25.104 42.032 23.696 41.616C22.288 41.2 20.576 40.576 18.56 39.744C16.736 38.944 14.976 38.288 13.28 37.776C11.648 40.752 9.2 42.24 5.936 42.24C4.144 42.24 2.72 41.84 1.664 41.04C0.576 40.208 0.0319999 39.152 0.0319999 37.872C0.0319999 36.304 0.784 35.008 2.288 33.984C3.792 32.928 5.792 32.4 8.288 32.4H8.912L9.776 18.432C9.968 15.232 10.544 12.592 11.504 10.512C12.464 8.432 13.792 6.656 15.488 5.184C16.96 3.904 18.64 2.944 20.528 2.304C22.416 1.632 24.416 1.296 26.528 1.296C29.984 1.296 32.64 2.192 34.496 3.984C36.352 5.776 37.28 8.112 37.28 10.992C37.28 12.944 36.928 14.528 36.224 15.744C35.52 16.928 34.544 17.52 33.296 17.52C32.4 17.52 31.696 17.312 31.184 16.896C30.672 16.448 30.416 15.824 30.416 15.024C30.416 14.736 30.48 14.208 30.608 13.44C30.8 12.544 30.896 11.744 30.896 11.04C30.896 9.696 30.496 8.64 29.696 7.872C28.928 7.072 27.744 6.672 26.144 6.672C23.328 6.672 21.152 7.6 19.616 9.456C18.08 11.28 17.104 14.16 16.688 18.096L15.584 28.992C15.424 30.528 15.216 31.856 14.96 32.976C17.008 33.328 19.568 33.888 22.64 34.656C24.432 35.104 25.808 35.424 26.768 35.616C27.728 35.808 28.576 35.904 29.312 35.904C31.168 35.904 32.752 35.6 34.064 34.992C35.408 34.352 36.672 33.344 37.856 31.968C38.24 31.52 38.672 31.296 39.152 31.296ZM49.0809 42.24C47.2249 42.24 45.1289 42.08 42.7929 41.76C41.5129 41.6 40.6329 41.264 40.1529 40.752C39.6729 40.24 39.4649 39.408 39.5289 38.256C39.7529 35.088 40.2809 31.184 41.1129 26.544C41.9449 21.872 42.9529 17.376 44.1369 13.056C44.3609 12.256 44.8089 11.696 45.4809 11.376C46.1529 11.056 47.0329 10.896 48.1209 10.896C50.0729 10.896 51.0489 11.44 51.0489 12.528C51.0489 12.976 50.9529 13.488 50.7609 14.064C49.9289 16.624 49.0969 20.064 48.2649 24.384C47.4329 28.672 46.8409 32.768 46.4889 36.672C47.4489 36.768 48.5369 36.816 49.7529 36.816C55.3529 36.816 59.5289 35.12 62.2809 31.728C65.0649 28.336 66.4569 23.808 66.4569 18.144C66.4569 14.336 65.3689 11.392 63.1929 9.312C61.0169 7.232 57.9449 6.192 53.9769 6.192C51.4169 6.192 48.8729 6.592 46.3449 7.392C43.8489 8.192 41.5929 9.248 39.5769 10.56C39.1609 10.848 38.7129 10.992 38.2329 10.992C37.6889 10.992 37.2569 10.768 36.9369 10.32C36.6169 9.84 36.4569 9.264 36.4569 8.592C36.4569 7.824 36.5849 7.2 36.8409 6.72C37.0969 6.208 37.5289 5.744 38.1369 5.328C40.3449 3.824 42.9369 2.688 45.9129 1.92C48.8889 1.12 51.7529 0.719999 54.5049 0.719999C58.4089 0.719999 61.7849 1.408 64.6329 2.784C67.4809 4.128 69.6729 6.112 71.2089 8.736C72.7449 11.36 73.5129 14.528 73.5129 18.24C73.5129 23.072 72.5529 27.296 70.6329 30.912C68.7129 34.496 65.9129 37.28 62.2329 39.264C58.5529 41.248 54.1689 42.24 49.0809 42.24Z" fill="#154036"/>
+                    </svg><span class="nav--span">Investment</span>
+                    
+            </div>
+        </div>
+        <div class="navigation--web">
+            <ul class="navigation--ul">
+                <span><a href="#">Home</a></span>
+                <span><a href="file:///C:/Users/Administrator/Desktop/about.index/about.html#">About</a></span>
+                <span><a href="file:///C:/Users/Administrator/Desktop/Service%20-%20Investment/service.html">Service</a></span>
+                <span><a href="#">Blog</a></span>
+                <span><a href="#">Service</a></span>
+            </ul>
+            
+        </div>
+    
+        <div class="navigation--web--right">
+    
+            <li><a href="#">Get Started</a></li>
+    
+        </div>
+
+    </div>
+</nav>
+<p id="demo"></p>
+<header class="myHeader--web">
+
+    <div class="investment--header">
+
+        <div class="left-side-of--header">
+            <p class="header--p">Time To Live Your Life</p>
+            <h1>Dream Home</h1>
+            <div class="another--web-p">Lorem ipsum Lorem ipsum dolor sit amet consectetur <br>adipisicing elit. Quaerat ab alias su. Magni aspernatur <br>iste vitae vero in voluptas ducimus minus mi</div>
+            <div class="header--btn">
+              <button class="btn">Learn More</button>
+            </div>
+
+        </div>
+
+        <div class="right--header">
+           <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=875&q=80">
+        </div>
+
+    </div>
+
+    <div class="header--grid">
+        <div class="header--location"><span>Location<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg></div>
+        <div class="header--category"><span>Category<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg></div>
+        <div class="header--size"><span>Size(sqft)<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+          </svg></div>
+        
+        <div class="header--research">
+            
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon--icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+              </svg>
+               Search</span>
+        </div>
+    </div>
+   
+
+</header>
+
+
+
+<section class="web--section">
+
+    <div class="main--focus">
+        <h2>Our Main Focus</h2>
+        <p class="focus--details">Leo volutpat vitae, consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, nisl arcu odio egestas. Purus enim viverra dui in sit. </div>
+        </p>
+
+    <div class="main--section">
+
+        <div class="main--first-coln">
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="main--icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+              </div>
+
+              <p class="first-coln">Buy a Property</p>
+              <span class="section--span">Leo volutpat vitae,  we can consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, </span> 
+        </div>
+
+
+        <div class="main--first-coln">
+            <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="main--icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 5.25a3 3 0 013 3m3 0a6 6 0 01-7.029 5.912c-.563-.097-1.159.026-1.563.43L10.5 17.25H8.25v2.25H6v2.25H2.25v-2.818c0-.597.237-1.17.659-1.591l6.499-6.499c.404-.404.527-1 .43-1.563A6 6 0 1121.75 8.25z" />
+              </svg>
+            </div>
+        
+            <p class="first-coln">Rent a Property</p>
+            <span class="section--span">Leo volutpat vitae,  we can consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, </span> 
+        </div>
+
+        <div class="main--first-coln">
+            <div><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="main--icon">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+              </svg>
+              </div>
+
+              <p class="first-coln">Sell a Property</p>
+              <span class="section--span">Leo volutpat vitae,  we can consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, </span> 
+        </div>
+
+    </div>
+    
+
+
+
+</section>
+
+<!-- START OF THE ARTICLE------------------------------------------- -->
+
+<article class="section-how-work">
+
+    <div class="how-work-container">
+
+      <div class="work-head-conatiner">
+        <h3>How It <span class="project--colon">
+            Works</span>
+        </h3>
+         <div class="work-details">
+            <p>Leo volutpat vitae, consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, nisl arcu odio egestas. Purus enim viverra dui in sit. </p>
+         </div>
+         
+      </div>
+
+    </div>
+
+    <div class="arrow--icon">
+
+        <div class="icons--details--grid">
+
+            <div class="details--icon--grid">
+
+                <div class="icon-first-coln">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.1667 23.0001C18.0577 23.0001 22.8333 18.2245 22.8333 12.3334C22.8333 6.44238 18.0577 1.66675 12.1667 1.66675C6.27563 1.66675 1.5 6.44238 1.5 12.3334C1.5 18.2245 6.27563 23.0001 12.1667 23.0001Z" stroke="#AACDCD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    <p class="detail-head">Search</p>
+                    <p>Leo volutpat vitae, consectetur<br> magna lectus eget iaculis ut.  </p>
+                </div>
+
+                
+                <div class="icon-second-coln">
+
+                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg" class="my--job">
+                        <path d="M27.8333 21.2267V25.2267C27.8349 25.5981 27.7588 25.9656 27.61 26.3058C27.4613 26.6461 27.2431 26.9515 26.9695 27.2025C26.6958 27.4536 26.3728 27.6447 26.021 27.7637C25.6692 27.8826 25.2965 27.9268 24.9267 27.8934C20.8238 27.4476 16.8827 26.0456 13.42 23.8C10.1985 21.7529 7.46713 19.0216 5.42001 15.8C3.16665 12.3217 1.76434 8.36137 1.32668 4.24005C1.29336 3.87134 1.33718 3.49973 1.45535 3.14888C1.57351 2.79803 1.76344 2.47563 2.01303 2.20221C2.26263 1.92879 2.56642 1.71033 2.90507 1.56074C3.24372 1.41116 3.6098 1.33373 3.98001 1.33338H7.98001C8.62709 1.32701 9.2544 1.55615 9.74503 1.97809C10.2357 2.40003 10.5561 2.98598 10.6467 3.62671C10.8155 4.9068 11.1286 6.16368 11.58 7.37338C11.7594 7.85061 11.7982 8.36927 11.6919 8.86789C11.5855 9.36651 11.3385 9.8242 10.98 10.1867L9.28668 11.88C11.1848 15.2181 13.9486 17.982 17.2867 19.88L18.98 18.1867C19.3425 17.8282 19.8002 17.5812 20.2988 17.4748C20.7975 17.3685 21.3161 17.4073 21.7933 17.5867C23.003 18.0381 24.2599 18.3512 25.54 18.52C26.1877 18.6114 26.7792 18.9377 27.2021 19.4367C27.6249 19.9358 27.8496 20.5728 27.8333 21.2267Z" stroke="#AACDCD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                        
+                    <p class="detail-head">Communication</p>   
+                    <p class="second--details">Leo volutpat vitae, consectetur<br> magna lectus eget iaculis ut.</p>                     
+                </div>
+
+
+                <div class="icon-third-coln">
+
+                    <svg width="20" height="16" viewBox="0 0 20 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.8333 1.00012L5.5 14.3468L1.5 10.3468" stroke="#AACDCD" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+
+                    <p class="detail-head">OWNER</p>
+                    <p>Leo volutpat vitae, consectetur <br>magna lectus eget iaculis ut.</p>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="icons--container">
+            <div class="arrow">
+                <svg width="82" height="381" viewBox="0 0 82 431" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 415.667H0.5V418.167H3V415.667ZM82 415.667L57 401.233V430.1L82 415.667ZM0.5 0.666748V5.60722H5.5V0.666748H0.5ZM0.5 15.4882V25.3691H5.5V15.4882H0.5ZM0.5 35.2501V45.131H5.5V35.2501H0.5ZM0.5 55.012V64.8929H5.5V55.012H0.5ZM0.5 74.7739V84.6548H5.5V74.7739H0.5ZM0.5 94.5358V104.417H5.5V94.5358H0.5ZM0.5 114.298V124.179H5.5V114.298H0.5ZM0.5 134.06V143.941H5.5V134.06H0.5ZM0.5 153.822V163.702H5.5V153.822H0.5ZM0.5 173.583V183.464H5.5V173.583H0.5ZM0.5 193.345V203.226H5.5V193.345H0.5ZM0.5 213.107V222.988H5.5V213.107H0.5ZM0.5 232.869V242.75H5.5V232.869H0.5ZM0.5 252.631V262.512H5.5V252.631H0.5ZM0.5 272.393V282.274H5.5V272.393H0.5ZM0.5 292.155V302.036H5.5V292.155H0.5ZM0.5 311.917V321.798H5.5V311.917H0.5ZM0.5 331.679V341.56H5.5V331.679H0.5ZM0.5 351.441V361.321H5.5V351.441H0.5ZM0.5 371.202V381.083H5.5V371.202H0.5ZM0.5 390.964V400.845H5.5V390.964H0.5ZM0.5 410.726V415.667H5.5V410.726H0.5ZM3 418.167H7.9375V413.167H3V418.167ZM17.8125 418.167H27.6875V413.167H17.8125V418.167ZM37.5625 418.167H47.4375V413.167H37.5625V418.167ZM57.3125 418.167H67.1875V413.167H57.3125V418.167Z" fill="#AACDCD"/>
+                    </svg>
+                    
+            </div>
+    
+            <div class="arrow--2">
+                <svg width="137" height="381" viewBox="0 0 137 424" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M50.5 420.667V423.167H53V420.667H50.5ZM50.5 14.6667V12.1667H48V14.6667H50.5ZM136.5 14.6667L111.5 0.232991V29.1005L136.5 14.6667ZM0 423.167H4.20833V418.167H0V423.167ZM12.625 423.167H21.0417V418.167H12.625V423.167ZM29.4583 423.167H37.875V418.167H29.4583V423.167ZM46.2917 423.167H50.5V418.167H46.2917V423.167ZM53 420.667V415.592H48V420.667H53ZM53 405.442V395.292H48V405.442H53ZM53 385.142V374.992H48V385.142H53ZM53 364.842V354.692H48V364.842H53ZM53 344.542V334.392H48V344.542H53ZM53 324.242V314.092H48V324.242H53ZM53 303.942V293.792H48V303.942H53ZM53 283.642V273.492H48V283.642H53ZM53 263.342V253.192H48V263.342H53ZM53 243.042V232.892H48V243.042H53ZM53 222.742V212.592H48V222.742H53ZM53 202.442V192.292H48V202.442H53ZM53 182.142V171.992H48V182.142H53ZM53 161.842V151.692H48V161.842H53ZM53 141.542V131.392H48V141.542H53ZM53 121.242V111.092H48V121.242H53ZM53 100.942V90.7918H48V100.942H53ZM53 80.6419V70.4918H48V80.6419H53ZM53 60.3419V50.1919H48V60.3419H53ZM53 40.0419V29.8919H48V40.0419H53ZM53 19.7419V14.6667H48V19.7419H53ZM50.5 17.1667H55.875V12.1667H50.5V17.1667ZM66.625 17.1667H77.375V12.1667H66.625V17.1667ZM88.125 17.1667H98.875V12.1667H88.125V17.1667ZM109.625 17.1667H120.375V12.1667H109.625V17.1667Z" fill="#AACDCD"/>
+                    </svg>
+                    
+                    
+            </div>
+    
+            <div class="arrow--3">
+                <svg width="147" height="381" viewBox="0 0 147 408" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M77 2.66675H79.5V0.166748H77V2.66675ZM77 393.167H74.5V395.667H77V393.167ZM147 393.167L122 378.733V407.6L147 393.167ZM0 5.16675H4.8125V0.166748H0V5.16675ZM14.4375 5.16675H24.0625V0.166748H14.4375V5.16675ZM33.6875 5.16675H43.3125V0.166748H33.6875V5.16675ZM52.9375 5.16675H62.5625V0.166748H52.9375V5.16675ZM72.1875 5.16675H77V0.166748H72.1875V5.16675ZM74.5 2.66675V7.548H79.5V2.66675H74.5ZM74.5 17.3105V27.073H79.5V17.3105H74.5ZM74.5 36.8355V46.598H79.5V36.8355H74.5ZM74.5 56.3605V66.123H79.5V56.3605H74.5ZM74.5 75.8855V85.648H79.5V75.8855H74.5ZM74.5 95.4105V105.173H79.5V95.4105H74.5ZM74.5 114.935V124.698H79.5V114.935H74.5ZM74.5 134.46V144.223H79.5V134.46H74.5ZM74.5 153.985V163.748H79.5V153.985H74.5ZM74.5 173.51V183.273H79.5V173.51H74.5ZM74.5 193.035V202.798H79.5V193.035H74.5ZM74.5 212.56V222.323H79.5V212.56H74.5ZM74.5 232.085V241.848H79.5V232.085H74.5ZM74.5 251.61V261.373H79.5V251.61H74.5ZM74.5 271.135V280.898H79.5V271.135H74.5ZM74.5 290.66V300.423H79.5V290.66H74.5ZM74.5 310.186V319.948H79.5V310.186H74.5ZM74.5 329.711V339.473H79.5V329.711H74.5ZM74.5 349.236V358.998H79.5V349.236H74.5ZM74.5 368.761V378.523H79.5V368.761H74.5ZM74.5 388.286V393.167H79.5V388.286H74.5ZM77 395.667H81.375V390.667H77V395.667ZM90.125 395.667H98.875V390.667H90.125V395.667ZM107.625 395.667H116.375V390.667H107.625V395.667ZM125.125 395.667H133.875V390.667H125.125V395.667Z" fill="#AACDCD"/>
+                    </svg>
+                    
+            </div>
+    
+    
+            <div class="arrow--4">
+                <svg width="61" height="381" viewBox="0 0 61 381" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M46 378.167V380.667H48.5V378.167H46ZM46 0.666748L31.5662 25.6667H60.4338L46 0.666748ZM0 380.667H5.75V375.667H0V380.667ZM17.25 380.667H28.75V375.667H17.25V380.667ZM40.25 380.667H46V375.667H40.25V380.667ZM48.5 378.167V373.2H43.5V378.167H48.5ZM48.5 363.265V353.331H43.5V363.265H48.5ZM48.5 343.397V333.463H43.5V343.397H48.5ZM48.5 323.529V313.594H43.5V323.529H48.5ZM48.5 303.66V293.726H43.5V303.66H48.5ZM48.5 283.792V273.858H43.5V283.792H48.5ZM48.5 263.923V253.989H43.5V263.923H48.5ZM48.5 244.055V234.121H43.5V244.055H48.5ZM48.5 224.186V214.252H43.5V224.186H48.5ZM48.5 204.318V194.384H43.5V204.318H48.5ZM48.5 184.45V174.515H43.5V184.45H48.5ZM48.5 164.581V154.647H43.5V164.581H48.5ZM48.5 144.713V134.779H43.5V144.713H48.5ZM48.5 124.844V114.91H43.5V124.844H48.5ZM48.5 104.976V95.0418H43.5V104.976H48.5ZM48.5 85.1076V75.1734H43.5V85.1076H48.5ZM48.5 65.2392V55.305H43.5V65.2392H48.5ZM48.5 45.3708V35.4366H43.5V45.3708H48.5ZM48.5 25.5024V15.5682H43.5V25.5024H48.5Z" fill="#AACDCD"/>
+                    </svg>
+                    
+            </div>
+    
+        </div>
+    </div>
+
+   
+</article>
+
+
+<!-- END OF ARTICLE SECTION--------------------------------------------------------------- -->
+
+<figure class="section--trending">
+
+    <div class="trending--details">
+
+        <h3>Our Most Popular <span class="project--colon">Trending</span></h3>
+        <div class="trending-work-detail">Leo volutpat vitae, consectetur magna lectus eget iaculis ut.Nam sem males<br>uada mi, nisl arcu odio egestas. Purus enim viverra dui in sit. </div>
+    </div>
+  
+  <div class="trending--grid--wor"> 
+
+    <div class="trending--page">
+
+        <div class="first--figure">
+            <img  src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=875&q=80">
+            <div class="price--flex">
+                <p class="trending--p">$198.000</p>
+                <div class="price--flex--right">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                      </svg>
+                      
+                      
+                </div>
+            </div>
+
+            <div class="flex--location">
+                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  </span>
+                  <p>Leo volutpat.</p>
+
+                  
+            </div>
+
+            <div class="grid--coln">
+
+                <div class="first--coln">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon--1">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                      </svg>
+                     Bed
+                    </span>
+                    
+                    <span class="mySpan"><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                        </svg>
+                        
+                       Bath
+                      </span>
+
+                    <span class="mySpan--3">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon--1">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6h9.75M10.5 6a1.5 1.5 0 11-3 0m3 0a1.5 1.5 0 10-3 0M3.75 6H7.5m3 12h9.75m-9.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-3.75 0H7.5m9-6h3.75m-3.75 0a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m-9.75 0h9.75" />
+                       </svg>sqmt
+                                                   
+                    </span>
+
+                </div>
+                <div class="grid--link">
+                    <li><a href="#">Details</a></li>
+                </div>
+            </div>
+
+              
+        </div>
+     
+    </div>
+
+
+    <div class="trending--page">
+
+        <div class="first--figure">
+            <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+            <div class="price--flex">
+                <p class="trending--p">$167.000</p>
+                <div class="price--flex--right">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                      </svg>
+                      
+                      
+                </div>
+            </div>
+
+            <div class="flex--location">
+                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  </span>
+                  <p>Leo volutpat.</p>
+            </div>
+
+            <div class="grid--coln">
+
+                <div class="first--coln">
+                    <span><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg" >
+                        <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                        </svg>
+                        
+                      <b>Bed</b>
+                     </span>
+                     
+
+                   <span class="mySpan"><svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                    </svg>
+                    
+                       Bath
+                    </span>
+                    <span class="mySpan--3">
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" class="mY--icon--1">
+                            <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                            </svg>
+                            
+                          sqmt
+                                                   
+                    </span>
+
+                </div>
+                <div class="grid--link">
+                    <li><a href="#">Details</a></li>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+    <div class="trending--page">
+
+        <div class="first--figure">
+            <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80">
+            <div class="price--flex">
+                <p class="trending--p">$209.000</p>
+                <div class="price--flex--right">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                      </svg>
+                      
+                      
+                </div>
+            </div>
+
+            <div class="flex--location">
+                <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                  </svg>
+                  </span>
+                  <p>Leo volutpat.</p>
+            </div>
+
+            <div class="grid--coln">
+
+                <div class="first--coln">
+                    <span>
+                        <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                            </svg>
+                            
+                     Bed
+                     </span>
+
+                   <span>
+                    <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                        </svg>
+                        
+                       Bath
+                    </span>
+                    <span>
+                        
+                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                            </svg>
+                            
+                      sqmt
+                                                   
+                    </span>
+
+                </div>
+            </div>
+            <div class="grid--link">
+                <li><a href="#">Details</a></li>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="more--figure">
+
+    <p class="view--link"><a href="#" class="view--link">View More</a></p>
+  </div>
+    
+</figure>
+
+
+
+
+<section class="project--section">
+
+    <div class="client--detail">
+        <div clas="client--goal">
+            <h3>See Our Other<span class="project--colon">Project</span></h3>
+            <div class="client--des">
+
+                <p>Leo volutpat vitae, consectetur magna lectus eget iaculis ut. Nam sem <br>malesuada mi, nisl arcu odio egestas. Purus enim viverra dui in sit. </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section-project-grid-work"> 
+
+        <div class="trending--page">
+    
+            <div class="first--figure">
+                <img src="Frame 132projectimg1.png">
+                <div class="price--flex">
+                    <p class="trending--p">$198.000</p>
+                    <div class="price--flex--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                          </svg>
+                          
+                          
+                    </div>
+                </div>
+    
+                <div class="flex--location">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                      </svg>
+                      </span>
+                      <p>Leo volutpat.</p>
+    
+                      
+                </div>
+    
+                <div class="grid--coln">
+    
+                    <div class="first--coln">
+                        <span>
+                            <svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                                </svg>
+                                
+                         Bed
+                        </span>
+                        
+                        <span class="mySpan">
+                            <svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                                </svg>
+                                
+                           <span>Bath</span>
+                          </span>
+    
+                        <span class="mySpan--3">
+                            
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                                </svg>
+                                
+                       sqmt
+                                                       
+                        </span>
+    
+                    </div>
+                    <div class="grid--link">
+                        <li><a href="#">Details</a></li>
+                    </div>
+                </div>
+    
+                  
+            </div>
+         
+        </div>
+    
+    
+        <div class="trending--page">
+
+            <div class="first--figure">
+                <img src="Frame 149projectimg2.png">
+                <div class="price--flex">
+                    <p class="trending--p">$198.000</p>
+                    <div class="price--flex--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                          </svg>
+                          
+                          
+                    </div>
+                </div>
+    
+                <div class="flex--location">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                      </svg>
+                      </span>
+                      <p>Leo volutpat.</p>
+    
+                      
+                </div>
+    
+                <div class="grid--coln">
+    
+                    <div class="first--coln">
+                        <span><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                            </svg>
+                            
+                         Bed
+                        </span>
+                        
+                        <span class="mySpan"><svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                            </svg>
+                            
+                           Bath
+                          </span>
+    
+                        <span class="mySpan--3">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                                </svg>
+                                sqmt
+                                                       
+                        </span>
+    
+                    </div>
+                    <div class="grid--link">
+                        <li><a href="#" class="grid--view--s">Details</a></li>
+                    </div>
+                </div>
+    
+                  
+            </div>
+        </div>
+    
+    
+        <div class="trending--page">
+
+            <div class="first--figure">
+                <img src="Frame 150projectimg3.png">
+                <div class="price--flex">
+                    <p class="trending--p">$198.000</p>
+                    <div class="price--flex--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                          </svg>
+                          
+                          
+                    </div>
+                </div>
+    
+                <div class="flex--location">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                      </svg>
+                      </span>
+                      <p>Leo volutpat.</p>
+    
+                      
+                </div>
+    
+                <div class="grid--coln">
+    
+                    <div class="first--coln">
+                        <span><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                            </svg>
+                            
+                         Bed
+                        </span>
+                        
+                        <span class="mySpan"><svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                            </svg>
+                            
+                           Bath
+                          </span>
+    
+                        <span class="mySpan--3">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                                </svg>
+                                sqmt
+                                                       
+                        </span>
+    
+                    </div>
+                    <div class="grid--link">
+                        <li><a href="#">Details</a></li>
+                    </div>
+                </div>
+    
+                  
+            </div>
+        </div>
+
+        <div class="trending--page">
+
+            <div class="first--figure">
+                <img src="Frame 151projectimg4.png">
+                <div class="price--flex">
+                    <p class="trending--p">$198.000</p>
+                    <div class="price--flex--right">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
+                          </svg>
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M7.217 10.907a2.25 2.25 0 100 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186l9.566-5.314m-9.566 7.5l9.566 5.314m0 0a2.25 2.25 0 103.935 2.186 2.25 2.25 0 00-3.935-2.186zm0-12.814a2.25 2.25 0 103.933-2.185 2.25 2.25 0 00-3.933 2.185z" />
+                          </svg>
+                          
+                          
+                    </div>
+                </div>
+    
+                <div class="flex--location">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="mY--icon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                      </svg>
+                      </span>
+                      <p>Leo volutpat.</p>
+    
+                      
+                </div>
+    
+                <div class="grid--coln">
+    
+                    <div class="first--coln">
+                        <span><svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M6.875 7.5C8.59805 7.5 10 6.09805 10 4.375C10 2.65195 8.59805 1.25 6.875 1.25C5.15195 1.25 3.75 2.65195 3.75 4.375C3.75 6.09805 5.15195 7.5 6.875 7.5ZM20.625 2.5H11.875C11.5297 2.5 11.25 2.77969 11.25 3.125V8.75H2.5V0.625C2.5 0.279687 2.22031 0 1.875 0H0.625C0.279687 0 0 0.279687 0 0.625V14.375C0 14.7203 0.279687 15 0.625 15H1.875C2.22031 15 2.5 14.7203 2.5 14.375V12.5H22.5V14.375C22.5 14.7203 22.7797 15 23.125 15H24.375C24.7203 15 25 14.7203 25 14.375V6.875C25 4.45859 23.0414 2.5 20.625 2.5Z" fill="#154036"/>
+                            </svg>
+                            
+                         Bed
+                        </span>
+                        
+                        <span class="mySpan"><svg width="25" height="22" viewBox="0 0 25 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M23.8281 10.9375H3.90625V3.90625C3.90625 3.04468 4.60718 2.34375 5.46875 2.34375C6.023 2.34375 6.51035 2.63403 6.78784 3.07031C5.98257 4.30112 6.0707 5.9793 7.12173 7.12476C6.91782 7.35488 6.92539 7.70659 7.1457 7.9269L7.69814 8.47935C7.92695 8.70815 8.29795 8.70815 8.52681 8.47935L13.1669 3.83926C13.3958 3.61045 13.3958 3.23945 13.1669 3.0106L12.6145 2.45815C12.3942 2.23784 12.0425 2.23032 11.8124 2.43418C10.9359 1.63003 9.74722 1.38784 8.67866 1.68394C7.9727 0.667334 6.79746 0 5.46875 0C3.31484 0 1.5625 1.75234 1.5625 3.90625V10.9375H1.17188C0.524658 10.9375 0 11.4622 0 12.1094V12.8906C0 13.5378 0.524658 14.0625 1.17188 14.0625H1.5625V15.625C1.5625 17.0132 2.16611 18.2602 3.125 19.1185V20.7031C3.125 21.3503 3.64966 21.875 4.29688 21.875H5.07812C5.72534 21.875 6.25 21.3503 6.25 20.7031V20.3125H18.75V20.7031C18.75 21.3503 19.2747 21.875 19.9219 21.875H20.7031C21.3503 21.875 21.875 21.3503 21.875 20.7031V19.1185C22.8339 18.2602 23.4375 17.0132 23.4375 15.625V14.0625H23.8281C24.4753 14.0625 25 13.5378 25 12.8906V12.1094C25 11.4622 24.4753 10.9375 23.8281 10.9375Z" fill="#154036"/>
+                            </svg>
+                            
+                           Bath
+                          </span>
+    
+                        <span class="mySpan--3">
+                            <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24.4932 4.49756L13.0488 0.0996079C12.6952 -0.0332026 12.3053 -0.0332026 11.9517 0.0996079L0.506836 4.49756C0.35796 4.55342 0.229671 4.65337 0.139106 4.78407C0.0485414 4.91477 1.19274e-05 5.06999 0 5.229L0 7.03125C0 7.46289 0.349609 7.8125 0.78125 7.8125H24.2188C24.6504 7.8125 25 7.46289 25 7.03125V5.229C25 4.90332 24.7979 4.61181 24.4932 4.49756ZM3.125 9.375V17.1875H2.34375C1.91211 17.1875 1.5625 17.5371 1.5625 17.9687V20.3125H23.4375V17.9687C23.4375 17.5371 23.0879 17.1875 22.6562 17.1875H21.875V9.375H18.75V17.1875H14.0625V9.375H10.9375V17.1875H6.25V9.375H3.125ZM24.2188 21.875H0.78125C0.349609 21.875 0 22.2246 0 22.6562V24.2187C0 24.6504 0.349609 25 0.78125 25H24.2188C24.6504 25 25 24.6504 25 24.2187V22.6562C25 22.2246 24.6504 21.875 24.2188 21.875Z" fill="#154036"/>
+                                </svg>
+                                sqmt
+                                                       
+                        </span>
+    
+                    </div>
+                    <div class="grid--link">
+                        <li><a href="#">Details</a></li>
+                    </div>
+                </div>
+    
+                  
+            </div>
+        </div>
+      
+    
+        
+    </div>
+  </div>
+    
+      <div class="more--figure">
+    
+        <p class="view--link"><a href="#" class="view--link">Get Started</a></p>
+      </div>
+
+
+      
+
+      
+
+</section>
+
+
+
+<aside class="section--aside">
+
+    <div class="client--words">
+
+        <h5>See What Our Client Say</h5>
+
+        <div class="client--p">
+            <p>Leo volutpat vitae, consectetur magna lectus eget iaculis ut. Nam <br>sem malesuada mi, nisl arcu odio egestas. Purus enim viverra dui in sit.  </p>
+        </div>
+    </div>
+
+    <div class="aside-container">
+
+
+        <div class="aside--img">
+            <img src="client.png">
+        </div>
+
+        <div class="aside--testimony">
+            <p class="client--testimony">
+                Leo volutpat vitae, consectetur magna lectus eget iaculis ut. Nam sem malesuada mi, nisl arcu odio egestas. Purus enim viverra dui in sit. nisl arcu odio egestas. Purus enim viverra dui in sit. 
+
+            </p>
+              <div class="client---review">
+                <div class="client--name">
+                    <div class="dennis--word">
+                       <h4>Dennis Darlingthon</h4>
+                       <p>Client</p>
+                    </div>
+
+                  <div class="flex--icon">
+                    <svg width="84" height="68" viewBox="0 0 84 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M47.854 59.92L63.726 29.456L71.662 27.408C70.8087 29.2853 69.7847 30.8213 68.59 32.016C67.2247 33.2107 65.6887 33.808 63.982 33.808C60.398 33.808 57.1553 32.3573 54.254 29.456C51.182 26.5547 49.646 22.8 49.646 18.192C49.646 13.584 51.3527 9.488 54.766 5.90401C58.0087 2.49067 61.934 0.784004 66.542 0.784004C71.15 0.784004 75.1607 2.49067 78.574 5.90401C81.9873 9.31734 83.694 13.4133 83.694 18.192C83.694 20.24 83.2673 22.544 82.414 25.104C81.5607 27.8347 80.11 31.248 78.062 35.344L60.91 67.088L47.854 59.92ZM0.749992 59.92L16.622 29.456L24.558 27.408C23.7047 29.2853 22.6807 30.8213 21.486 32.016C20.1207 33.2107 18.5847 33.808 16.878 33.808C13.294 33.808 10.0513 32.3573 7.14999 29.456C4.07799 26.5547 2.54199 22.8 2.54199 18.192C2.54199 13.584 4.24866 9.488 7.66199 5.90401C10.9047 2.49067 14.83 0.784004 19.438 0.784004C24.046 0.784004 28.0567 2.49067 31.47 5.90401C34.8833 9.31734 36.59 13.4133 36.59 18.192C36.59 20.24 36.1633 22.544 35.31 25.104C34.4567 27.8347 33.006 31.248 30.958 35.344L13.806 67.088L0.749992 59.92Z" fill="black" fill-opacity="0.2"/>
+                        </svg>
+                        
+                  </div>
+                </div>
+
+                <div class="client--icon">
+                    <span><svg  viewBox="0 0 100 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-client--1">
+                        <rect y="0.594238" width="100" height="20" rx="8" fill="#AACDCD"/>
+                        </svg>
+                    </span>
+
+                    <span><svg  viewBox="0 0 100 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-client">
+                        <rect y="0.594238"  width="100" height="20" rx="8" fill="#dee2e6" />
+                        </svg>
+                    </span>
+
+                    <span><svg  viewBox="0 0 100 21" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-client">
+                        <rect y="0.594238" width="100" height="20" rx="8" fill="#dee2e6"/>
+                        </svg>
+                    </span>
+                </div>
+              </div>
+
+                
+
+        </div>
+    </div>
+
+</aside>
+
+<section class="e-mail-section">
+
+    <div class="e-mail-container">
+
+        <div class="e-mail--details">
+            <h6>Get Your Home <span class="list--e-mail">Listing</span>
+              
+            </h6>
+            <h6 class="my--h6">As An Owner</h6>
+
+            <p>Leo volutpat vitae, consectetur
+            magna lectus eget iaculis ut. Nam </p>
+
+            <div class="e-mail-box">
+                <div class="e-mail--left">
+                    <form action="mailto:you@example.com" method="post" enctype="text/plain" >
+                        
+                        
+                        <label for="email" class="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your e-mail address here" class="email--holder"><br>
+                        
+                        
+                      </form>
+                      
+                </div>
+                <div class="e-mail-get--started">
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<footer  class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-logo">
+            <img src="">
+            <p>Leo volutpat vitae, consec<br> tetur magna lectus eget </p>
+        </div>
+      <div class="link--footer">
+        <div class="foot-coln">
+            <p>Property</p>
+            <ul>
+                <ol><a href="#">Learning Modules</a></ol>
+                <ol><a href="#">Partnership</a></ol>
+                <ol><a href="#">Wacth Demo</a></ol>
+                <ol><a href="#">Event</a></ol>
+            </ul>
+        </div>
+
+        <div class="second-coln">
+            <p>About</p>
+            <ul>
+                <ol><a href="#">Our Company</a></ol>
+                <ol><a href="#">Career</a></ol>
+                <ol><a href="#">Investor Relation</a></ol>
+                <ol><a href="#">Social Impact</a></ol>
+            </ul>
+        </div>
+
+        <div class="third-coln">
+            <p>Resources</p>
+            <ul>
+                <ol><a href="#">Learning Modules</a></ol>
+                <ol><a href="#">Partnership</a></ol>
+                <ol><a href="#">Wacth Demo</a></ol>
+                <ol><a href="#">Event</a></ol>
+            </ul>
+        </div>
+     </div>
+    </div>
+    
+</footer>
+
+
+
+
+    
+</html>
